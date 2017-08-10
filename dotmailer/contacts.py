@@ -139,7 +139,7 @@ class Contact(Base):
 
         :return:
         """
-        print "ID =", self.id
+        print("ID =", self.id)
         self.validate_id('Sorry unable to update this contact as no ID value'
                          ' has been defined.')
         response = connection.put(
