@@ -88,6 +88,6 @@ def test_get_all(connection):
     """
     templates = Template.get_all()
     for template in templates:
-        print template
+        print(template)
         assert template.id is not None
 
