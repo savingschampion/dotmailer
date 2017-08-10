@@ -92,7 +92,7 @@ class Contact(Base):
         super(Contact, self).__init__(**kwargs)
 
     def _update_values(self, data):
-        printdata)
+        print(data)
         if 'data_fields' in data:
             # If the data fields is a list then this is likely to be
             # coming back from the server as a list of dictionaries
