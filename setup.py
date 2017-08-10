@@ -6,7 +6,7 @@ setup(
     name='dotmailer',
     version='0.4.2',
     description='DotMailer API wrapper',
-    long_description=long_description,
+    long_description='',
 
     url='https://github.com/Mr-F/dotmailer',
 
